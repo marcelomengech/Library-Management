@@ -1,0 +1,2 @@
+[console_scripts]
+lib-cli = lib_cli:cli
