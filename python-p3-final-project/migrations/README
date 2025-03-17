@@ -1,1 +1,28 @@
-Generic single-database configuration.
+# Library Management System CLI
+
+## Description
+A command-line interface (CLI) application for managing a library's collection of books, authors, and genres using Python. Built with SQLAlchemy ORM for database management and Click for CLI functionality.
+
+## Features
+- Author Management (add, list, update, delete) 
+- Book Management (add, associate, list, update, delete)
+- Genre Management (add, list, update, delete)
+
+## Installation
+
+### Prerequisites
+- Python 3.8.13 or higher
+- pip or pipenv
+
+### Setup
+```bash
+# Clone repository
+git clone <repository-url>
+cd python-p3-final-project
+
+# Install with pipenv
+pipenv install
+pipenv shell
+
+# Or install with pip
+pip install -e .
